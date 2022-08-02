@@ -1,5 +1,6 @@
 """
-#123
+# file owner: Kenny
+# Chiu update bg color
 ==== 1. =====
 請參考 73-tkinter-label-2文字擺放place.py
 
@@ -16,7 +17,7 @@ win.wm_title("123") # 步驟3：設定主視窗標題
 win.resizable(width=True, height=True) # 步驟4：設定主視窗不可以被調整大小
 win.minsize(width=240, height=240)      #  最小尺寸
 win.maxsize(width=1024, height=768)      #  最大尺寸
-
+win.configure(bg='#fbbc93')
 label1 =tk.Label(win,text="產品的資料")  # 建立文字
 label1.place(x=50, y=50)                 # 指定元件位置 x=20, y=60 的位置
 
@@ -91,7 +92,7 @@ win.wm_title("123") # 步驟3：設定主視窗標題
 win.resizable(width=True, height=True) # 步驟4：設定主視窗不可以被調整大小
 win.minsize(width=240, height=240)      #  最小尺寸
 win.maxsize(width=1024, height=768)      #  最大尺寸
-
+win.configure(bg='light blue')
 
 label1 =tk.Label(win,text="所屬廠區:"+partsClass1.factory_area)                          # 導入資料
 label1.place(x=20, y=20)                                                         # 指定位置
